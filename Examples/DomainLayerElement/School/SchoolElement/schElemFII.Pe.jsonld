@@ -1,0 +1,20 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/TeachingLevel_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Fund2:FII.Pe",
+    "type": "Fund2",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Fundamental II da EE_Petropolis"
+    },
+    "hasTeachingModality": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:Regular:FII.R.Pe"
+       ]
+    }
+}
+

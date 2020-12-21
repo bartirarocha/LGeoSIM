@@ -1,0 +1,25 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/GeographicLayer_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:GeographicLayer:RNCities",
+    "type": "GeographicLayer",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Camada das Cidades do Estado do RN"
+    },
+    "belongsTo": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:State:RN"
+    },
+    "hasGeographicElement": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:City:Natal"
+        ]
+    }
+}
+

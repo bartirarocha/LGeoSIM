@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Attedance_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Attedance:PsiConsJs",
+    "type": "Attedance",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "date": {
+        "type": "Property",
+        "value": "2020-01-10T08:00:00:329Z"
+    },
+    "attendedBy": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:SpecialtySupplier:SSPat"
+    },
+    "hasDiagnosis": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:Diagnosis:Esquizofrenia"
+       ]
+    }
+}

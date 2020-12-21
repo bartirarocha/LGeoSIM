@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/ServiceUser_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:UfrnStudent:SUufrnMa",
+    "type": "UfrnStudent",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "name": {
+        "type": "Property",
+        "value": "Maria Cristiana"
+    },
+    "skincolor": {
+        "type": "Property",
+        "value": "black"
+    },
+    "locatedAt": {
+            "id":"urn:ngsi-ld:NeighborHood:Candelaria"
+    },
+    "livingIn": {
+            "id":"urn:ngsi-ld:NeighborHood:Candelaria"
+    },
+    "hasAttedance": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:Attedance:ObPNMa01",
+            "urn:ngsi-ld:Attedance:ObPNMa02",
+            "urn:ngsi-ld:Attedance:ObPNMa03"
+       ]
+    }
+}

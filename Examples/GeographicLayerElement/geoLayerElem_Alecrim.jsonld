@@ -1,0 +1,24 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/NeighborHood_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:NeighborHood:Alecrim",
+    "type": "NeighborHood",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Bairro Alecrim"
+    },
+    "isPartOf": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:Zone:D01ZL"
+    },
+    "neighborOf": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:NeighborHood:BarroVermelho"
+    }
+}
+

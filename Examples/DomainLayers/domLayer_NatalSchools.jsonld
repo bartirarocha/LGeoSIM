@@ -1,0 +1,33 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/DomainLayer_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:DomainLayer:NatalSchools",
+    "type": "DomainLayer",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Camada das escolas  da cidade de Natal"
+    },
+    "isAbout": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:CityManagementElement:Education"
+    },
+    "isOver": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:City:Natal"
+    },
+    "hasDomainElement": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:School:EE_BarroVermelho",
+            "urn:ngsi-ld:School:EE_Petropolis",
+            "urn:ngsi-ld:School:EE_Tiburcio",
+            "urn:ngsi-ld:School:EE_Walfredo",
+            "urn:ngsi-ld:School:EP_Marista"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/GeographicLayer_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:GeographicLayer:DD01Zones",
+    "type": "GeographicLayer",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Camada das Zonas do Distrito 01 da cidade de Natal"
+    },
+    "belongsTo": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:District:D001"
+    },
+    "hasGeographicElement": {
+        "type": "Relationship",
+        "object": [
+            "urn:ngsi-ld:Zone:D01ZL",
+            "urn:ngsi-ld:Zone:D01ZS"
+        ]
+    }
+}
+

@@ -1,0 +1,20 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/SeriesClass_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:SeriesClass:EM.R.1A.Tibu",
+    "type": "SeriesClass",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Turma 1A do EM Regular do EE_Tibu"
+    },
+    "hasStudent": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:Student:St1.1A.Tibu",
+            "urn:ngsi-ld:Student:St2.1A.Tibu"
+       ]
+    }
+}

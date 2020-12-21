@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Procedure_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Procedure:PreNatal02Mes",
+    "type": "Procedure",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Acompanhamento Pré Natal Mês 02"
+    }
+}
+

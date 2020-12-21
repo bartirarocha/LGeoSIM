@@ -1,0 +1,14 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Country_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Country:BR",
+    "type": "Country",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "País Brazil"
+    }
+}
+

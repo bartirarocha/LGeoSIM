@@ -1,0 +1,40 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/SpecialtySupplier_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:SpecialtySupplier:SSAd",
+    "type": "SpecialtySupplier",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "name": {
+        "type": "Property",
+        "value": "Adice Moreira"
+    },
+    "councilCode": {
+        "type": "Property",
+        "value": "001"
+    },
+    "locatedAt": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:NeighborHood:Alecrim"
+    },
+    "livingIn": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:NeighborHood:Alecrim"
+    },
+    "attendedIn": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:SchoolHospital:MJC"
+       ]
+    },
+    "hasSpecialty": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:Specialty:SPOb",
+            "urn:ngsi-ld:Specialty:SPGin"
+       ]
+    }
+}

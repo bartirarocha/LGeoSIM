@@ -1,0 +1,17 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Person_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Person:MotSt39APe",
+    "type": "Person",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+
+    "locatedAt": {
+            "id":"urn:ngsi-ld:NeighborHood:Petropolis"
+    },
+    "livingIn": {
+            "id":"urn:ngsi-ld:NeighborHood:Petropolis"
+    }
+}
+

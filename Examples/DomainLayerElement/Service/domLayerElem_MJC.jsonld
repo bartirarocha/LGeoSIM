@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Service_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:SchoolHospital:MJC",
+    "type": "SchoolHospital",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Maternidade Januário Cicco"
+    },
+    "locatedAt": {
+            "id":"urn:ngsi-ld:NeighborHood:Candelaria"
+    },
+    "livingIn": {
+            "id":"urn:ngsi-ld:NeighborHood:Candelaria"
+    },
+    "providesSpecialty": {
+       "object":[
+            "urn:ngsi-ld:Specialty:SPPed",
+            "urn:ngsi-ld:Specialty:SPOb",
+            "urn:ngsi-ld:Specialty:SPPsi",
+            "urn:ngsi-ld:Specialty:SPGin"
+       ]
+    },
+    "hasSpecialtySuppliers": {
+       "object":[
+            "urn:ngsi-ld:SpecialtySupplier:SSAd",
+            "urn:ngsi-ld:SpecialtySupplier:SSJoh",
+            "urn:ngsi-ld:SpecialtySupplier:SSAl",
+            "urn:ngsi-ld:SpecialtySupplier:SSSon"
+       ]
+    },
+    "hasServiceUser": {
+       "object":[
+            "urn:ngsi-ld:ComunityUser:SUcompJos",
+            "urn:ngsi-ld:Student:St1.9A.Pe",
+            "urn:ngsi-ld:Student:St1.9A.BV",
+            "urn:ngsi-ld:ComunityUser:SUcomAp",
+            "urn:ngsi-ld:UfrnStudent:SUufrnMa"
+       ]
+    }
+}

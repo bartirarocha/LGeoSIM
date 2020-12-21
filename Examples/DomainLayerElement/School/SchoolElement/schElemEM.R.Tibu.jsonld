@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/TeachingModality_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Regular:EM.R.Tibu",
+    "type": "Regular",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Séries do Ensino Médio da EE_Tiburcio"
+    },
+    "disapprovedTM": {
+        "type": "Property",
+        "value": "1"
+    },
+    "approvedTM": {
+        "type": "Property",
+        "value": "1"
+    },
+    "hasSeries": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:TeachingModality:EM.R.1.Tibu"
+       ]
+    }
+}

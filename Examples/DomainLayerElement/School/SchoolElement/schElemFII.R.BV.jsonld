@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/TeachingModality_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Regular:FII.R.BV",
+    "type": "Regular",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Séries do Ensino Fund II da EE_BarroVermelho"
+    },
+    "disapprovedTM": {
+        "type": "Property",
+        "value": "1"
+    },
+    "approvedTM": {
+        "type": "Property",
+        "value": "2"
+    },
+    "hasSeries": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:TeachingModality:FII.R.9.BV"
+       ]
+    }
+}

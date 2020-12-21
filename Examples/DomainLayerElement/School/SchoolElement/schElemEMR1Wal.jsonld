@@ -1,0 +1,27 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Series_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Series:EM.R.1.Wal",
+    "type": "Series",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "description": {
+        "type": "Property",
+        "value": "Séries do ensino regular do Ensino Médio da EE_Walfredo"
+    },
+    "expectedAge": {
+        "type": "Property",
+        "value": "16"
+    },
+    "approvedSer": {
+        "type": "Property",
+        "value": "10"
+    },
+    "hasClass": {
+       "type": "Relationship",
+       "object":[
+            "urn:ngsi-ld:SeriesClass:EM.R.1A.Wal"
+       ]
+    }
+}

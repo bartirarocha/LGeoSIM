@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://forge.etsi.org/gitlab/NGSI-LD/NGSI-LD/raw/master/coreContext/ngsi-ld-core-context.jsonld",
+        "https://raw.githubusercontent.com/porfiriogomes/Ontologies/master/Student_context.jsonld"
+    ],
+    "id":"urn:ngsi-ld:Student:St4.9A.Pe",
+    "type": "Student",
+    "createdAt": "2020-04-20T10:50:30:329Z",
+    "age": {
+        "type": "Property",
+        "value": "15"
+    },
+    "name": {
+        "type": "Property",
+        "value": "Felipe"
+    },
+    "schoolBus": {
+        "type": "Property",
+        "value": "true"
+    },
+    "bolsaFamilia": {
+        "type": "Property",
+        "value": "true"
+    },
+    "specialNeeds": {
+        "type": "Property",
+        "value": "false"
+    },
+    "locatedAt": {
+            "id":"urn:ngsi-ld:NeighborHood:BarroVermelho"
+    },
+    "livingIn": {
+            "id":"urn:ngsi-ld:NeighborHood:BarroVermelho"
+    },
+    "hasParents": {
+            "id":"urn:ngsi-ld:Person:MotSt49APe"
+    },
+    "attachedToSchoolS": {
+       "type": "Relationship",
+       "object":
+            "urn:ngsi-ld:School:EE_Petropolis"
+    }
+}
+
