@@ -1,0 +1,50 @@
+{
+  "@context": {
+    "LGeoSIMOntology": "http://www.semanticweb.org/bartirarocha/ontologies/2019/4/LGeoSIMOntology#",
+    "id": "@id",
+    "type": "@type",
+
+    "ServiceUser": "LGeoSIMOntology:ServiceUser",
+    "DomainLayerElement": "LGeoSIMOntology:DomainLayerElement",
+    "Person": "LGeoSIMOntology:Person",
+    "NeighborHood": "LGeoSIMOntology:NeighborHood",
+    "Attedance": "LGeoSIMOntology:Attedance",
+    "Service": "LGeoSIMOntology:Service",
+
+    "name":"LGeoSIMOntology:name",
+
+    "hasAttedance": {
+      "@id": "LGeoSIMOntology:hasAttedance",
+      "@type": "@id"
+    },
+    "isAServiceUserOf": {
+      "@id": "LGeoSIMOntology:isAServiceUserOf",
+      "@type": "@id"
+    },
+    "hasParents": {
+      "@id": "LGeoSIMOntology:hasParents",
+      "@type": "@id"
+    },
+    "hasChildren": {
+      "@id": "LGeoSIMOntology:hasChildren",
+      "@type": "@id"
+    },
+    "hasSiblings": {
+      "@id": "LGeoSIMOntology:hasSiblings",
+      "@type": "@id"
+    },
+    "nexTo": {
+      "@id": "LGeoSIMOntology:nexTo",
+      "@type": "@id"
+    },
+    "locatedAt": {
+      "@id": "LGeoSIMOntology:locatedAt",
+      "@type": "@id"
+    },
+    "livingIn": {
+      "@id": "LGeoSIMOntology:livingIn",
+      "@type": "@id"
+    }
+  }
+}
+
